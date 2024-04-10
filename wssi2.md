@@ -1,4 +1,5 @@
-#wssi2
+# wssi2
+
 __ZAD1.1__
 a)rodzeństwo
 b)kuzyni pierwszego stopnia
