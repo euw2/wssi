@@ -1,4 +1,4 @@
-ZAD1.1
+__ZAD1.1__
 a)rodzeństwo
 b)kuzyni pierwszego stopnia
 c)różni dziadkowie z tego samego pokolenia
@@ -6,7 +6,7 @@ d)y jest przybranym rodzicem x
 e)przybrane rodzeństwo
 f)x i y są dla siebie szwagrami
 g)kazirodztwo
-ZAD1.2
+__ZAD1.2__
 przyjazn(X, Y) :- lubi(X, Y), lubi(Y, X).
 nieprzyjazn(X, Y) :- \+ lubi(X, Y), \+ lubi(Y, X).
 niby_przyjazn(X, Y) :- \+ lubi(X, Y), \+ lubi(Y, X), toleruje(X, Y), toleruje(Y, X).
@@ -18,7 +18,7 @@ plec(kobieta).
 true_love(X, Y) :- exclusive_love(X, Y).
 obojetnosc(X, Y) :- \+ mutual_loves(X, Y).
 
-ZAD2
+__ZAD2__
 kobieta(X) :-
 	osoba(X),
 	\+ mezczyzna(X).
